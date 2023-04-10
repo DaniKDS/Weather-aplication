@@ -1,15 +1,15 @@
 Iată câțiva pași pe care îi poți urma pentru a crea o astfel de aplicație:
 
-Planifică structura aplicației - începe prin a face un plan al funcționalităților pe care vrei să le incluzi în aplicație. În general, o aplicație de prognoză meteo va avea nevoie de funcții de afișare a informațiilor meteo curente și a prognozei pentru următoarele zile.
+1-Planifică structura aplicației - începe prin a face un plan al funcționalităților pe care vrei să le incluzi în aplicație. În general, o aplicație de prognoză meteo va avea nevoie de funcții de afișare a informațiilor meteo curente și a prognozei pentru următoarele zile.
 
-Găsește o sursă de date meteorologice - există multe API-uri de prognoză meteo disponibile online, cum ar fi OpenWeatherMap, Weather Underground sau AccuWeather, pe care le poți utiliza pentru a obține date meteorologice în timp real.
+2-Găsește o sursă de date meteorologice - există multe API-uri de prognoză meteo disponibile online, cum ar fi OpenWeatherMap, Weather Underground sau AccuWeather, pe care le poți utiliza pentru a obține date meteorologice în timp real.
 
-Dezvoltă interfața utilizatorului - folosind HTML, CSS și JavaScript, creează interfața grafică a aplicației tale. Asigură-te că interfața este responsivă și poate fi utilizată atât pe desktop, cât și pe dispozitive mobile.
+3-Dezvoltă interfața utilizatorului - folosind HTML, CSS și JavaScript, creează interfața grafică a aplicației tale. Asigură-te că interfața este responsivă și poate fi utilizată atât pe desktop, cât și pe dispozitive mobile.
 
-Conectează-te la API-ul meteo - folosind limbajul de programare pe care îl preferi, creează o cerere de API pentru a obține datele meteo de la sursa aleasă. Aceste date pot include informații precum temperatura, presiunea atmosferică, viteza vântului, umiditatea și altele.
+4-Conectează-te la API-ul meteo - folosind limbajul de programare pe care îl preferi, creează o cerere de API pentru a obține datele meteo de la sursa aleasă. Aceste date pot include informații precum temperatura, presiunea atmosferică, viteza vântului, umiditatea și altele.
 
-Afișează datele meteorologice - folosind JavaScript, afișează datele meteorologice obținute în interfața grafică a aplicației tale. Asigură-te că datele sunt prezentate într-un mod clar și ușor de înțeles pentru utilizatori.
+5-Afișează datele meteorologice - folosind JavaScript, afișează datele meteorologice obținute în interfața grafică a aplicației tale. Asigură-te că datele sunt prezentate într-un mod clar și ușor de înțeles pentru utilizatori.
 
-Adaugă funcții suplimentare - dacă dorești, poți adăuga funcții suplimentare, cum ar fi afișarea prognozei pe termen lung sau a informațiilor meteorologice pentru alte orașe sau regiuni.
+6-Adaugă funcții suplimentare - dacă dorești, poți adăuga funcții suplimentare, cum ar fi afișarea prognozei pe termen lung sau a informațiilor meteorologice pentru alte orașe sau regiuni.
 
-Testează și optimizează - asigură-te că aplicația ta funcționează bine și că datele sunt prezentate corect. Testează aplicația pe diferite dispozitive și asigură-te că se comportă bine și pe mobil. Optimizarea aplicației tale poate fi făcută prin reducerea timpului de încărcare a paginilor și a traficului de date.
+7-Testează și optimizează - asigură-te că aplicația ta funcționează bine și că datele sunt prezentate corect. Testează aplicația pe diferite dispozitive și asigură-te că se comportă bine și pe mobil. Optimizarea aplicației tale poate fi făcută prin reducerea timpului de încărcare a paginilor și a traficului de date.
