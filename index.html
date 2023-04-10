@@ -35,7 +35,7 @@
       <div class="col">
         <img src="images/images/wind.png">
       <div>
-        <p class="humidity" >15 km/h
+        <p class="wind" >15 km/h
            </p>
         <p>Wind Speed</p>
 
@@ -61,10 +61,10 @@
 
       console.log(data);
 
-      document.querySelector(".city").innerHTML = data.name;
-      document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
+      document.querySelector(".city").innerHTML = data.name ;
+      document.querySelector(".temp").innerHTML = Math.round(data.main.temp)  + "°C";
       document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
-      document.querySelector(".wind").innerHTML = data.wind.speed + "km/h";
+      document.querySelector(".wind").textContent = data.wind.speed + " km/h";
     }
     searchButton.addEventListener("click", ()=> {
       checkWeather(searchInput.value);
