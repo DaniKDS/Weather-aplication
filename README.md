@@ -10,4 +10,4 @@
 ### Images with the application
 
 - In the first picture is the user's first interaction with the interface, which will open automatically with the weather data from his location.
-![Screenshot (166).png]()
+![Screenshot1.png](https://github.com/DaniKDS/Weather-aplication/blob/master/Screenshot1.png)
