@@ -9,44 +9,126 @@
 
 <body>
 
-  <div class="card">
-    <div class="search">
-      <input type="text" placeholder="Enter the city name" spellcheck="false">
-      <button><img src="images/search.png"></button>
-    </div>
-    <div class="error">
-      <p>City not found! </p>
-    </div>
-    <div class="weather">
-      <img src="images/rain.png" class="weather-icon">
-      <h1 class="temp"> 10°C </h1>
-      <h2 class="city">Cluj-Napoca</h2>
+  <main>
 
-      <div class="details">
+    <div class="card">
 
-        <div class="col">
-          <img src="images/humidity.png">
-          <div>
-            <p class="humidity">50%</p>
-            <p>Humidity</p>
+      <div class="search">
+        <input type="text" placeholder="Enter the city name" spellcheck="false">
+        <button><img src="images/search.png"></button>
+      </div>
 
+      <div class="error">
+        <p>City not found! </p>
+      </div>
+
+      <div class="weather">
+        <img src="images/rain.png" class="weather-icon">
+        <h1 class="temp"> 10°C </h1>
+        <h2 class="city">Cluj-Napoca</h2>
+
+        <div class="details">
+
+          <div class="col">
+            <img src="images/humidity.png">
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+
+            </div>
           </div>
-        </div>
 
-        <div class="col">
-          <img src="images/wind.png">
-          <div>
-            <p class="wind">15 km/h
-            </p>
-            <p>Wind Speed</p>
+          <div class="col">
+            <img src="images/wind.png">
+            <div>
+              <p class="wind">15 km/h
+              </p>
+              <p>Wind Speed</p>
 
+            </div>
           </div>
-        </div>
 
+        </div>
+      </div>
+
+      <div class="forecstH">
+        <p class="cast-header">The forecast at times of the day</p>
+        <div class="templist">
+
+          <div class="next">
+            <div>
+              <p class="time">3:30AM</p>
+              <p>12 °C / 14 °C</p>
+            </div>
+          </div>
+
+          <div class="next">
+            <div>
+              <p class="time">8:30 AM</p>
+              <p>17 °C / 18 °C</p>
+            </div>
+          </div>
+
+          <div class="next">
+            <div>
+              <p class="time">12:29 AM</p>
+              <p>22 °C / 24 °C</p>
+            </div>
+          </div>
+
+          <div class="next">
+            <div>
+              <p class="time">18:30 PM</p>
+              <p>29 °C / 29 °C</p>
+            </div>
+          </div>
+
+          <div class="next">
+            <div>
+              <p class="time">22:30 PM</p>
+              <p>17 °C / 20 °C</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </main>
+
+  <div class="forecstD">
+    <div class="divider2"></div>
+    <p class="cast-header"> Next 4 days forecast</p>
+    <div class="weekF">
+
+      <div class="dayF">
+        <p class="date">Sun Jul 03 2022</p>
+        <p>31 °C / 31 °C</p>
+        <p class="desc">Overcast Clouds</p>
+      </div>
+
+      <div class="dayF">
+        <p class="date">Sun Jul 03 2022</p>
+        <p>31 °C / 31 °C</p>
+        <p class="desc">Overcast Clouds</p>
+      </div>
+
+      <div class="dayF">
+        <p class="date">Sun Jul 03 2022</p>
+        <p>31 °C / 31 °C</p>
+        <p class="desc">Overcast Clouds</p>
+      </div>
+
+      <div class="dayF">
+        <p class="date">Sun Jul 03 2022</p>
+        <p>31 °C / 31 °C</p>
+        <p class="desc">Overcast Clouds</p>
       </div>
     </div>
-    
-    <script src="app.js"></script>
+  </div>
+
+  </main>
+
+  <script src="app.js"></script>
+
   </div>
 </body>
 

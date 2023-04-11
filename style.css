@@ -1,4 +1,5 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -13,7 +14,7 @@ body{
 
 .card{
     width: 100%;
-    max-width: 400px;
+    max-width: 450px;
     background: linear-gradient(135deg, #658179, #605f68);
     margin: 100px auto;
     border-radius: 5px;
@@ -89,7 +90,7 @@ body{
 }
 
 .col {
-    width: 100%;
+    width: 200%;
     max-width: 200px;
     padding: 0 20px;
     text-align: center;
@@ -118,3 +119,52 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+.next{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.next p,.next h3{
+    margin: 3px 0;
+}
+.forecstD{
+    align-self: center;
+    color: rgb(9, 67, 118);
+}
+.weekF{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+.cast-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.divider1,.divider2{
+    background: rgba(233, 238, 243, 0.539);
+    height: 200px;
+    border-radius: 5px;
+}
+.divider2{
+    height: 5px;
+    width: 30%;
+    margin: 0 auto;
+}
+.time,.date{
+    color: rgb(228, 217, 232);
+}
+.desc{
+    color: rgb(159, 162, 187);
+}
+

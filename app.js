@@ -41,6 +41,7 @@ async function checkWeather(url) {
     }
     //display weather details
     document.querySelector(".weather").style.display = "block";
+    console.log(data);
   }
 }
 
@@ -66,3 +67,8 @@ searchButton.addEventListener("click", () => {
   const apiURL = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=" + city + "&appid=" + apiKey;
   checkWeather(apiURL);
 });
+
+
+
+
+
