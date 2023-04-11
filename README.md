@@ -16,4 +16,4 @@
 - In the last picture I displayed an error message, in case we were looking for a city/area that does not exist.The browser will refresh after searching for a city and receiving an error message.
 ![Screenshot 3.png](https://github.com/DaniKDS/Weather-aplication/blob/master/Screenshot%203.png)
 
-## This is my first version of this app, thanks!
+#### This is my first version of this app, thanks!
