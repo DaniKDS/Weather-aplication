@@ -1,15 +1,19 @@
-Iată câțiva pași pe care îi poți urma pentru a crea o astfel de aplicație:
+• Aplicația trebuie sa fie funcționala si să ruleze pe un localhost (node intregration, etc.).
+• Codul trebuie să fie încărcat si accesibil pe un GitHub/Bitbucket, pentru a îl putea clona și rula.
+• Aplicația trebuie legata la un Weather API, pentru a avea data reale in aplicație. (datele inițiale ar trebui să fie cu locația actuala)
+• Aplicația trebuie să fie responsive pentru Desktop cât și pentru Mobile.
+• Folosirea semantică a elementelor Web.
 
-1-Planifică structura aplicației - începe prin a face un plan al funcționalităților pe care vrei să le incluzi în aplicație. În general, o aplicație de prognoză meteo va avea nevoie de funcții de afișare a informațiilor meteo curente și a prognozei pentru următoarele zile.
+Optional features to add\improve:
 
-2-Găsește o sursă de date meteorologice - există multe API-uri de prognoză meteo disponibile online, cum ar fi OpenWeatherMap, Weather Underground sau AccuWeather, pe care le poți utiliza pentru a obține date meteorologice în timp real.
+• Aplicația ar trebui să permită utilizatorului să facă forecast pe mai multe zile/ore. (nu mai mult de 7 zile, si nu mai mult de 24 ore)
+• Aplicația ar trebui să permită vizualizarea mai multor orașe.
+• Aplicația ar trebui să permită adăugarea unor orașe ca Favorite.
+• Aplicația ar trebui să aibă mai multe Teme (themes/desings). (day, night, rain, etc.)
 
-3-Dezvoltă interfața utilizatorului - folosind HTML, CSS și JavaScript, creează interfața grafică a aplicației tale. Asigură-te că interfața este responsivă și poate fi utilizată atât pe desktop, cât și pe dispozitive mobile.
-
-4-Conectează-te la API-ul meteo - folosind limbajul de programare pe care îl preferi, creează o cerere de API pentru a obține datele meteo de la sursa aleasă. Aceste date pot include informații precum temperatura, presiunea atmosferică, viteza vântului, umiditatea și altele.
-
-5-Afișează datele meteorologice - folosind JavaScript, afișează datele meteorologice obținute în interfața grafică a aplicației tale. Asigură-te că datele sunt prezentate într-un mod clar și ușor de înțeles pentru utilizatori.
-
-6-Adaugă funcții suplimentare - dacă dorești, poți adăuga funcții suplimentare, cum ar fi afișarea prognozei pe termen lung sau a informațiilor meteorologice pentru alte orașe sau regiuni.
-
-7-Testează și optimizează - asigură-te că aplicația ta funcționează bine și că datele sunt prezentate corect. Testează aplicația pe diferite dispozitive și asigură-te că se comportă bine și pe mobil. Optimizarea aplicației tale poate fi făcută prin reducerea timpului de încărcare a paginilor și a traficului de date.
+Guidelines:
+• Îți poți face design-ul propriu.
+• Îți poți structura proiectul după preferințe.
+• Poți folosi orice librării ajutătoare.
+• Codul trebuie documentat la nevoie (cum se rulează aplicația; ce funcționalități au fost implementate).
+• Clean Code
