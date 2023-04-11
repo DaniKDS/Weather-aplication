@@ -6,6 +6,7 @@
 - The application is responsive for both desktop and mobile.
 - Semantic use of Web elements.
 - The forecast appears in the graphic interface. 
+- Open http://localhost:5500 to view it in your browser. 
 
 ### Images with the application
 
