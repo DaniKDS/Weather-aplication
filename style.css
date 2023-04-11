@@ -14,7 +14,7 @@ body{
 .card{
     width: 100%;
     max-width: 400px;
-    background: linear-gradient(135deg, #3d5851, #5b548a);
+    background: linear-gradient(135deg, #658179, #605f68);
     margin: 100px auto;
     border-radius: 5px;
     overflow: hidden;
@@ -47,7 +47,8 @@ body{
     width: 50px;
     height: 50px;
     border: none;
-    background: #4984dd;
+    background: #404752;
+    border: #02010e;
     margin-left: 10px;
     border-radius: 5px;
     cursor: pointer;
