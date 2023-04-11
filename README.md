@@ -1,5 +1,7 @@
 # **Weather-aplication**
-## Mandatory requirements
-- The application must be functional and running on a localhost (node integration, etc.).
-- The application must be linked to a Weather API, to have real data in the application. (initial data should be with current location).
-- The application must be responsive for both Desktop and Mobile.
+
+## Requirements implemented
+- The application is functional and runs on local host.
+- The application is connected to a WeatherApi(openweathermap), and the initial data are of the current location.
+- The application is responsive for both desktop and mobile.
+- Semantic use of Web elements.
