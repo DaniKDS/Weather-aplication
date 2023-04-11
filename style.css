@@ -6,20 +6,21 @@
 }
 
 body{
-    background: #acdae8;
+    background-image: url("https://images.pexels.com/photos/395196/pexels-photo-395196.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .card{
     width: 100%;
     max-width: 400px;
-    background: linear-gradient(135deg, #00feba, #5b548a);
+    background: linear-gradient(135deg, #3d5851, #5b548a);
     margin: 100px auto;
     border-radius: 5px;
     overflow: hidden;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
-    
 }
 
 .search{
@@ -101,4 +102,18 @@ body{
 .humidity, .wind{
     font-size: 20px;
     color: #fff;
+}
+
+.weather{
+    display : none;
+}
+
+.error{
+    text-align: left;
+    text-size-adjust: 20px;
+    margin-left: 15px;
+    color: rgb(10, 36, 92);
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
 }
