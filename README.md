@@ -6,3 +6,8 @@
 - The application is responsive for both desktop and mobile.
 - Semantic use of Web elements.
 - The forecast appears in the graphic interface. 
+
+### Images with the application
+
+- In the first picture is the user's first interaction with the interface, which will open automatically with the weather data from his location.
+![Screenshot (166).png]()
