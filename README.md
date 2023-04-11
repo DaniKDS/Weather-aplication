@@ -1,4 +1,4 @@
-# **Weather-aplication** *** made with HTML, CSS and JavaScript.***
+# **Weather-aplication** ***made with HTML, CSS and JavaScript.***
 
 ## Requirements implemented
 - The application is functional and runs on local host.
